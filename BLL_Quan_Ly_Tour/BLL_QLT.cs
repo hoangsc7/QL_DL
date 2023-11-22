@@ -14,7 +14,7 @@ namespace BLL_Quan_Ly_Tour
     {
         QLT_Access Access = new QLT_Access();
 
-        // Kiểm tra ngoại lệ Đăng nhập
+        // Kiểm tra ngoại lệ
         public string CheckLogin(ACCOUNT taikhoan)
         {
             if (taikhoan.Email == "")
