@@ -1,0 +1,12 @@
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\bin\Debug\DTO_Quan_Ly_Tour.dll
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\bin\Debug\DTO_Quan_Ly_Tour.pdb
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.csproj.AssemblyReference.cache
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.csproj.CoreCompileInputs.cache
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.dll
+C:\Users\84867\source\repos\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.pdb
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\bin\Debug\DTO_Quan_Ly_Tour.dll
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\bin\Debug\DTO_Quan_Ly_Tour.pdb
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.csproj.AssemblyReference.cache
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.csproj.CoreCompileInputs.cache
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.dll
+D:\visual\Quan_ly_Tour_du_lich\DTO_Quan_Ly_Tour\obj\Debug\DTO_Quan_Ly_Tour.pdb

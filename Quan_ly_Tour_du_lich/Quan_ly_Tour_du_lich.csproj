@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E651E1E6-0967-4D81-8D97-9ECD3E8FE415}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quan_ly_Tour_du_lich</RootNamespace>
+    <AssemblyName>Quan_ly_Tour_du_lich</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_booking.Designer.cs">
+      <DependentUpon>F_booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Infor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Infor.Designer.cs">
+      <DependentUpon>F_Infor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_KH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_KH.Designer.cs">
+      <DependentUpon>F_KH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_login.Designer.cs">
+      <DependentUpon>F_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_main.Designer.cs">
+      <DependentUpon>F_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NV.Designer.cs">
+      <DependentUpon>F_NV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_KM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_KM.Designer.cs">
+      <DependentUpon>F_KM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_signup.Designer.cs">
+      <DependentUpon>F_signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_tour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_tour.Designer.cs">
+      <DependentUpon>F_tour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_Tour_du_lichDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_Tour_du_lichDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="F_booking.resx">
+      <DependentUpon>F_booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Infor.resx">
+      <DependentUpon>F_Infor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_KH.resx">
+      <DependentUpon>F_KH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_KM.resx">
+      <DependentUpon>F_KM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_login.resx">
+      <DependentUpon>F_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_main.resx">
+      <DependentUpon>F_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NV.resx">
+      <DependentUpon>F_NV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_signup.resx">
+      <DependentUpon>F_signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_tour.resx">
+      <DependentUpon>F_tour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QL_Tour_du_lichDataSet.xsc">
+      <DependentUpon>QL_Tour_du_lichDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_Tour_du_lichDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_Tour_du_lichDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_Tour_du_lichDataSet.xss">
+      <DependentUpon>QL_Tour_du_lichDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deye1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_Quan_Ly_Tour\BLL_Quan_Ly_Tour.csproj">
+      <Project>{9a952671-8732-4134-bea5-6fdec137865b}</Project>
+      <Name>BLL_Quan_Ly_Tour</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO_Quan_Ly_Tour\DTO_Quan_Ly_Tour.csproj">
+      <Project>{6ec111d0-bff3-4aca-ad89-1903f3c7a766}</Project>
+      <Name>DTO_Quan_Ly_Tour</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
